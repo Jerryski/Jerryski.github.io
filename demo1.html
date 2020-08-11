@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!--Kommenti, tagit määrittää html-version HTML5:KSI--->
+<html>  
+    <head>
+   <title>Demo1</title>
+   <meta charset = "UTF-8">
+    </head>
+    <body>
+            <h1>ISO otsikko</h1>
+            <h2>Toiseksi isoin otsikko</h2>
+            <h6>pienin otsikko</h6>
+
+            <p>Tämä on tekstikappale. tag on p. tulee sanasta paragraph</p>
+            <p>Toinen kappale jättää selvän välin edelliseen, <br>
+            rivinvaihdon voi tehdä tagilla br, tuele sanasta break. </p>
+            <h2>Listat</h2> 
+            <h3>Tavallinen listan tag on ul</h3>
+            <ul>
+                <li>ensimmäinen elemntti, tag on li</li>
+                <li>toinen elementti</li>
+            </ul>
+
+            <h3>Numeroitu lista</h3>
+            <p>numeroidun listan tag on ol</p>
+            <ol>
+              <li>eka elementti</li>
+              <li>toka elementti</li>
+            </ol>
+
+            <h2>linkkejä</h2>
+            <h3>Ulkoiset sivut</h3>
+            <p>Käytä koko url:ää
+            <p>linkki alkaa tagilla a (anchor), href kertoo mihin linkki vie. Tagien väliin tulee se teksti, minkä lukija näkee.</p>
+            </p>
+            <ul>
+                <li>><a href="https://www.bilcuware.cc">Oma gamer sivusto</a></li>
+            </ul>
+
+            <h3>Linkki omille sivuille</h3>
+            <p>Linkit suhteellsiina viittauksina.</p>
+            <p>Jos sivu on samassa kansiossa, voit viitata siihen suoraan sen nimellä, esim a href ="sivu2.html"</p>
+            <p>Jos sivu on alikansiossa, viitataan polulla alikansioon, esim a href ="./alikansio/sivu2.html"</p>
+            <p> sivu on rinnakkaisessa kansiossa, polkuun tulee viittaus ylöspäin, esim. a href ="../sivukansio/sivu3.html"</p>
+
+            <h3>Kuvat</h3>
+            <p>Kuva lisätään tagilla img. Pakollinen attribuutti on alt (alternative), johon kirjoitetaan vaiuhtoehto, jos kuva ei toimi. 
+               Toinen pakollinen on src(Source) jossa kerrotanan mistä kuva löytyy.</p>
+               <p><img src="./kuvat/otus.jpg" alt="otus"></p>
+               <p><img src="./kuvat/perhonen.jpg" alt="perhonen"></p>
+               <p><img src="./kuvat/hienompiotus.jfif" alt="hienompiotus"</p>
+        </body>
+    </html>
