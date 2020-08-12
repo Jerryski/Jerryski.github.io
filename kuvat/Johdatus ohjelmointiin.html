@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://www.leeniemi.net/ohjs/index.php?sivu=harj1 -->
+<html lang="fi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+	  
+	<title>Johdatus ohjelmointiin</title>  
+	<meta name="author" content="Leena Järvenkylä-Niemi">  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="./Johdatus ohjelmointiin_files/tyyli.css">
+	<script src="./Johdatus ohjelmointiin_files/jquery.min.js.lataus"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+  <body>
+<header>
+
+	<div id="ylapalkinsisalto">
+	<a href="http://www.leeniemi.net/"><img src="./Johdatus ohjelmointiin_files/logo.gif" alt="Etusivulle" class="logo"></a>
+	<h1 class="paaotsikko">Johdatus ohjelmointiin</h1>
+	</div><!--ylapalkinsisalto-->
+
+<div id="kuvanalue">
+		<img class="kuva" src="./Johdatus ohjelmointiin_files/tvkuva.jpg" alt="Sorakuilu">
+</div>
+</header>
+
+<nav class="clearfix">  
+    <ul class="clearfix">  
+        <li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=ohjelma">Ohjelma</a></li>  
+        <li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=materiaali">Materiaali</a></li>  
+        <li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=harjoitukset">Harjoitukset</a></li>  
+    </ul>  
+    <a href="https://www.leeniemi.net/ohjs/index.php?sivu=harj1#" id="pull">Valikko</a>  
+</nav>
+
+<div id="asia">
+	<div id="asiasisalto">
+     
+     
+<h2>Sisältö</h2>
+<ol>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa1">Alkuun</a></li>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa2">Työvälineet ja ympäristö, Javascriptin kirjoittaminen</a></li>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa3">Muuttujat, tietotyypit ja operaattorit</a></li>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa4">Ehtolauseet, boolean</a></li>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa5">Funktiot (lohkot)</a></li>
+<li><a href="https://www.leeniemi.net/ohjs/index.php?sivu=osa6">Taulukot ja toistorakenteet</a></li>
+</ol>
+<hr>
+
+
+<h1>Harjoitukset 1</h1>
+
+<h2>Muuttujat, tietotyypit ja operaattorit</h2>
+
+<h3>Kohta A</h3>
+<p>Aseta muuttuja nimi, sijoita siihen oma nimesi.</p>
+<p>Tulosta nimi konsolilla.</p>
+
+<h3>Kohta B</h3>
+<p>Tulosta konsolilla sana "Hei", välilyönti ja muuttujassa nimi oleva tieto.</p>
+<p>Muuta nimi-muuttujan arvoa.</p>
+
+<p>Tulosta konsolilla sana "Muutettu" ja nimen muutettu arvo.</p>
+
+
+<h3>Kohta C</h3>
+<p>Aseta uusi muuttuja kaverin_nimi ja sijoita siihen kaverisi nimi.</p>
+<p>Tulosta konsolilla lause, joka kertoo oman nimesi, kaverisi nimen ja sen, että olette kavereita.</p>
+
+<h3>Kohta D</h3>
+<p>Määrittele muuttuja summa, johon voit tallentaa kahden kokonaisluvun yhteenlaskun tulokset.</p>
+<p>Laske ohjelmakomennolla paljonko on 5 + 2 ja sijoita tulos summa-muuttujaan. </p>
+<p>Tulosta muuttujan summa sisältö konsoliin.</p>
+
+<h3>Kohta E</h3>
+<p>Laske ohjelmakomennolla paljonko on summa muuttujan arvo kun siihen lisätään 15.</p>
+<p>Sijoita tulos summa muuttujaan.</p> 
+<p>Tulosta muuttujan summa sisältö konsoliin.</p>
+
+<h3>Kohta F</h3>
+<p>Laadi ohjelma joka asettaa kaksi muuttujaa ja niille arvot 67 ja 32. Anna muuttujille mielekkäät itsekommentoivat nimet.</p>
+<p>Sen jälkeen ohjelma laskee ja tulosta konsoliin seuraavat kohdat (muista laittaa tekstiselitys, siitä, mikä vastaus on kyseessä):</p>
+<p>lukujen summan</p>
+<p>lukujen erotuksen</p>
+<p>lukujen tulon</p>
+<p>lukujen osamäärän</p>
+
+
+
+<hr>
+
+<h3>Ylimääräinen tehtävä</h3>
+<p>Aseta kaksi muuttujaa vesikannu ja mehukannu ja sijoita niihin nimen mukaiset arvot "mehua" ja "vettä".</p>
+<p>Suunnittele ohjelma, jonka avulla voit vaihtaa vesikannun sisällön mehukannuun ja toisinpäin.</p>
+<p>Tulosta konsolilla muuttujien arvo operaation jälkeen (muista selittää tulostus).</p>
+
+
+</div><!--asia-->
+
+<footer>
+	<div id="alapalkinsisalto">
+		leena.jarvenkyla-niemi at tampere.fi
+	
+	
+	</div><!--alapalkin_sisalto-->
+</footer><!-- alapalkki-->
+
+
+</div></body></html>
