@@ -36,3 +36,9 @@ matkanhinta = kulutus * matka/100 * bensanhinta;
 /* bensaa kuluu 5.5 * 370/100 ja se maksaa kulutus * hinta */
 
 console.log("Matka maksaa " + matkanhinta + "euroa");
+
+console.log("Esimerkkejä");
+let name = "Ismael";
+console.log( `hello ${1}` ); // ?
+console.log( `hello ${"name"}` ); // ?
+console.log( `hello ${name}` ); // ?
