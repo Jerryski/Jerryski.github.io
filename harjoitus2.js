@@ -35,3 +35,24 @@ let vastaus = prompt("Oletko kissa- vai koira ihminen? Kirjoita koira tai kissa"
 if(vastaus == "koira") console.log("Koirien kanssa onkin mukava ulkoilla ja harrastaa")
 else if(vastaus == "kissa") console.log("Kissoja onkin mukava silitellä ja kuunnella niiden kehräystä");
 
+console.log("Kohta F")
+
+let numerot = prompt("Anna ensimmäinen luku")
+let numerot2 = prompt("Anna toinen luku")
+let laskutoimitus = prompt("Anna laskutoimitus mitä haluat käyttää? +,-,/, tai *");
+numerot = Number(numerot)
+numerot2 = Number(numerot2)
+if(laskutoimitus =="+"){
+    console.log(numerot+numerot2);
+}
+
+else if(laskutoimitus =="/"){
+    console.log(numerot/numerot2);
+}
+
+else if(laskutoimitus =="-"){
+    console.log(numerot-numerot2);
+}
+else if(laskutoimitus =="*"){
+    console.log(numerot*numerot2);
+}
